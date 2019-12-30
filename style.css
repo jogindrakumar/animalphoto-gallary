@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+img{
+    height: 300px;
+    width: 480px;
+    margin: 10px;
+    transition: all 1s;
+
+}
+img:hover{
+    transform: scale(1.1);
+    /* transform: rotate(1080deg);
+    transform: translate(20px, 20px); */
+}
